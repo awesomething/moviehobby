@@ -46,8 +46,4 @@ app.get('/movie', function handleGetMovie(req, res) {
   res.json(response)
 })
 
-const PORT = 9000
 
-app.listen(PORT, () => {
-  console.log(`Server listening at https://moviehobby.herokuapp.com/`)
-})
